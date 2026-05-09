@@ -92,3 +92,22 @@ Comentário: De fato foi interessante esse projeto, sair um pouco do HTML e CSS 
 Usar CamelCase... Mas o que mais gostei foi não ter que usar @media para setar responsividade isso não tem preço kkkkkkkk.
 Sendo sincero, achei puxado o prazo professor, quase não foi possível terminar o projeto a tempo. Fora isso, foi bem construtiv, deu pra ter uma noção melhor da proporção 
 que é esse framework.
+
+
+Segue imagem das telinhas: 
+
+<img width="642" height="1476" alt="T1" src="https://github.com/user-attachments/assets/450e988c-951b-436d-ac90-3cd4b7f38aec" />
+
+
+
+<img width="678" height="1492" alt="T2" src="https://github.com/user-attachments/assets/cfd8af1e-d312-44bc-8b89-49fa2c1acb2f" />
+
+
+
+<img width="706" height="1514" alt="T3" src="https://github.com/user-attachments/assets/7b029399-689b-428b-8994-8eca1fd214e2" />
+
+
+
+<img width="704" height="1503" alt="T4" src="https://github.com/user-attachments/assets/a11aa64e-3465-4265-a969-909058881d40" />
+
+
