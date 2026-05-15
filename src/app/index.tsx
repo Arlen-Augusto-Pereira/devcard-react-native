@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
 
   subtitle: {
-    color: "#747477",
+    color: THEME.colors.subtitle,
     fontWeight: "400",
     fontSize: 16,
     width: 200,
