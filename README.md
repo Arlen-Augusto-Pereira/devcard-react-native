@@ -23,7 +23,7 @@ segue imagem das telinhas:
 
 
 
-<img width="227" height="502" alt="Tela 3" src="https://github.com/user-attachments/assets/743af595-d102-4364-beb4-dbeb654dfeb2" />
+<img width="227" height="500" alt="Tela 3" src="https://github.com/user-attachments/assets/2e62ed2b-c3e7-4a4f-a067-7a793e46a6ca" />
 
 
 
