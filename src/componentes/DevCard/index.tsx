@@ -19,7 +19,7 @@ export function DevCard({data}: Props) {
             <View style={styles.cardTextGroup}>
                 <Text style={styles.cardTitle}>Arlen Augusto</Text>
                 <View style={styles.cardTextGroup}>
-                    <Text style={styles.cardText}>Arquiteto de Software</Text>
+                    <Text style={styles.cardText}>Engenheiro de Software</Text>
                     <Text style={styles.cardSubtitle}>IBM</Text>
                 </View>
             </View>
