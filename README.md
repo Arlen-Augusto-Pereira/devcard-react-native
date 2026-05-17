@@ -1,113 +1,36 @@
-DevCard
+#  DevCard
+O projeto proposto consiste em quatro telas (tela inicial/index, cadastro, prewiew e sucesso) cada uma com componentes diferentes. Funciona como um cartão de visita digital para desenvolvedores mobile.O usuário consegue escolher uma cor para o cartão e visualizar o resultado final.
 
-Esse projeto foi desenvolvido para a IA de Aplicações móveis.
+# Objetivo do projeto
+Acredito que o objetivo do projeto tenha sido praticar o desenvolvimento mobile em RN com conceitos de navegação e comunicação entre elementos e pastas.
 
-O aplicativo funciona como um cartão de visita digital para desenvolvedores mobile. O usuário consegue preencher seus dados, escolher uma cor para o cartão e visualizar o resultado final
-(modestia parte, ficou toP).
+# Funcionalidades
+Tela inicial de apresentação --> Cadastro de dados o usuário insere seus dados e esolhe uma cor para o seu DevCard --> Tela com o cartão da cor escolhida dentre as ofertadas e seus dados no cartão, podendo fizalzar ou editar --> Tela de sucesso, após finalizar a criação do cartão o usuário chega nessa última tela, podendo criar outro cartão ou voltar ao início.
 
+Comentário
+Fala Brendon! Estou enviando fora do prazo pois de fato não consegui de maneira alguma terminar antes. Fiz confome o vídio postado no AVA e como tem que pausar para entender e codar demorei muitas horas para poder concluir, também me deparei com diversos erros que inpactaram na eficiencia de entrega. Usei IA somente para tirar dúvida em relação aos erros, de resto foi tudo na mão.
 
-Objetivo do Projeto
-
-O objetivo da atividade foi praticar conceitos básicos de React Native utilizando Expo Router, navegação entre telas, validação de formulário, uso de estados e estilização com Flexbox.
-
-
-Funcionalidades
-
-Tela inicial de apresentação
-Cadastro dos dados do desenvolvedor
-Escolha da cor do cartão
-Preview do cartão digital
-Tela de confirmação
-Navegação entre telas
-Validação dos campos obrigatórios
-
-
-Estrutura das Pastas
-
-index.ts
-
-Arquivo responsável por iniciar o Expo Router.
-
-src/app/_layout.tsx
-
-Arquivo responsável pela navegação entre as telas do aplicativo.
-
-src/app/index.tsx
-
-Tela inicial do projeto.
-
-Nessa tela o usuário visualiza:
-nome do aplicativo
-descrição
-botão para iniciar o cadastro
-
-
-src/app/cadastro.tsx
-
-Tela de cadastro dos dados do desenvolvedor.
-
-Campos utilizados:
-nome
-cargo
-empresa
-anos de experiência
-tecnologia favorita
-cor do cartão
-
-Também possui validações para impedir campos vazios.
-
-src/app/preview.tsx
-
-Tela responsável por mostrar o cartão digital.
-
-Nessa tela:
-a cor do cartão muda conforme a escolha do usuário
-aparece a primeira letra do nome como avatar
-aparece o nível do desenvolvedor baseado nos anos de experiência
-
-Níveis:
-Júnior
-Pleno
-Sênior
-
-src/app/sucesso.tsx
-
-Tela final de confirmação.
-
-Mostra uma mensagem informando que o cartão foi criado com sucesso.
-
-Tecnologias Utilizadas
-
-React Native
-Expo
-Expo Router
-TypeScript
-
-Desenvolvedor
-
-Arlen Augusto Pereira  
-Engenharia de Software - 5º Semestre
-
-Comentário: De fato foi interessante esse projeto, sair um pouco do HTML e CSS padrão tem seu valor. de div para View, p para Text, input para TextInput.
-Usar CamelCase... Mas o que mais gostei foi não ter que usar @media para setar responsividade isso não tem preço kkkkkkkk.
-Sendo sincero, achei puxado o prazo professor, quase não foi possível terminar o projeto a tempo. Fora isso, foi bem construtiv, deu pra ter uma noção melhor da proporção 
-que é esse framework.
-
-
-Segue imagem das telinhas: 
-
-<img width="642" height="1476" alt="T1" src="https://github.com/user-attachments/assets/450e988c-951b-436d-ac90-3cd4b7f38aec" />
+# Telas
+segue imagem das telinhas:
 
 
 
-<img width="678" height="1492" alt="T2" src="https://github.com/user-attachments/assets/cfd8af1e-d312-44bc-8b89-49fa2c1acb2f" />
+<img width="231" height="502" alt="Tela1" src="https://github.com/user-attachments/assets/bfba18a0-95f5-484f-86ec-3ba371b6a979" />
 
 
 
-<img width="706" height="1514" alt="T3" src="https://github.com/user-attachments/assets/7b029399-689b-428b-8994-8eca1fd214e2" />
+<img width="227" height="500" alt="Tela2" src="https://github.com/user-attachments/assets/613a67c2-d4dc-4a30-bef2-a98294855e0e" />
 
 
 
-<img width="704" height="1503" alt="T4" src="https://github.com/user-attachments/assets/a11aa64e-3465-4265-a969-909058881d40" />
+<img width="227" height="502" alt="Tela 3" src="https://github.com/user-attachments/assets/743af595-d102-4364-beb4-dbeb654dfeb2" />
+
+
+
+<img width="229" height="505" alt="Tela 4" src="https://github.com/user-attachments/assets/eb99d765-bf5c-413c-972f-f27236da5856" />
+
+
+
+
 
 
