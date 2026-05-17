@@ -1,7 +1,13 @@
 import { Text, View } from "react-native";
 import { styles } from "./styles";
+import { Form } from "../../app/cadastro";
 
-export function DevCard() {
+
+type Props ={
+  data: Form
+}
+
+export function DevCard({data}: Props) {
     return (
         <View style={styles.cardContainer}>
             <View style={styles.cardAvatarContainer}>

@@ -3,8 +3,13 @@ import {SafeAreaView } from "react-native-safe-area-context";
 import {Button} from "../componentes/Buttons";
 import { THEME } from "../styles/constants";
 import { DevCard }from "../componentes/DevCard";
+import { useRouter, useLocalSearchParams } from "expo-router";
+
+
 
 export default function Previewscreen(){
+  const router = useRouter()
+  const params = useLocalSearchParams() as unknown as Form
   return (
     <SafeAreaView>
        <View style= {styles.container}>
@@ -13,10 +18,10 @@ export default function Previewscreen(){
               Seu Cartão
             </Text>  
          </View>
-           <DevCard/>
+           <DevCard data={params}/>
           <View style={styles.footerContainer}> 
-            <Button label="Editar" variant="outline"/>  
-            <Button label="Finalizar"/>
+            <Button label="Editar" variant="outline" onPress={() => router.push("/cadastro")}/>  
+            <Button label="Finalizar" onPress={() => router.push("/sucesso")}/> 
           </View>
 
        </View>

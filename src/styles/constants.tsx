@@ -2,6 +2,8 @@ const PRIMARY_COLOR = "#6547e8";
 const PRIMARY_FOREGROUND_COLOR = "#f8f8ff";
 const SUBTITLE_COLOR = "#747477";
 const HEADING_COLOR= "#2d2d30";
+const BORDER_INPUT_COLOR= "#afafb4";
+const ERROR_COLOR= "#b61047";
 const BORDER_RADIUS_MD = 8
 const BORDER_RADIUS_LG = 12
 const BORDER_RADIUS_XL = 16
@@ -12,7 +14,11 @@ export const THEME = {
     primary: PRIMARY_COLOR,
     primary_foreground: PRIMARY_FOREGROUND_COLOR,
     subtitle: SUBTITLE_COLOR,
-    heading: HEADING_COLOR
+    heading: HEADING_COLOR,
+    error: ERROR_COLOR,
+    border: {
+      input: BORDER_INPUT_COLOR
+    }
   },
   border: {
     radius: {

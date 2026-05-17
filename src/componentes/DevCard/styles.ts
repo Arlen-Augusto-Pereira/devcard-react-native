@@ -4,7 +4,7 @@ import {THEME} from "../../styles/constants";
 export const styles = StyleSheet.create({
 cardContainer:{
   backgroundColor:"#3783f6",
-  borderRadius: THEME.border.radius.xl,
+  borderRadius: THEME.border.radius.xxl,
   paddingHorizontal: 28,
   paddingVertical: 32,
   justifyContent: "center",
