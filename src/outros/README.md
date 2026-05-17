@@ -18,16 +18,23 @@ Fala Brendon! Estou enviando fora do prazo pois de fato não consegui de maneira
 
 segue imagem das telinhas:
 
-![alt text](image.png)
 
 
-![alt text](image-1.png)
+<img width="231" height="502" alt="Tela1" src="https://github.com/user-attachments/assets/01518fa8-ab5b-49e1-90c1-9adcefb5fbb3" />
 
 
-![alt text](image-2.png)
+
+<img width="227" height="500" alt="Tela2" src="https://github.com/user-attachments/assets/8b5ed607-815b-455e-9ec9-547644151090" />
 
 
-![alt text](image-3.png)
+
+<img width="227" height="500" alt="Tela 3" src="https://github.com/user-attachments/assets/02bd39c3-1c08-4c9b-89c3-7a84e2ab400e" />
+
+
+
+<img width="229" height="505" alt="Tela 4" src="https://github.com/user-attachments/assets/be7af91e-fb2c-4fa6-8605-738f22479ee1" />
+
+
 
 
 
